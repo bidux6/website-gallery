@@ -14,6 +14,7 @@
         <nav>
             <div class="nav-button">
                 <ul>
+                    <li><a href="index.html"><button>Home</button></a></li>
                     <li><a href="about.html"><button>About</button></a></li>
                     <li><a href="contact.html"><button>Submit</button></a></li>
                 </ul>
@@ -28,7 +29,10 @@
        <div class="submission-form">
         <h2>Everything here is only a demonstration. No information will be submitted.</h2>
 
-        
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Input username here." name="username" required>
+        </div>
         <div class="form-group">
             <label for="website-name">Website Name:</label>
             <input type="text" id="website-name" placeholder="Input website name here." name="website-name" required>
@@ -43,7 +47,7 @@
         </div>
         <div class="form-group">
             <label for="website-notes">Notes:</label>
-            <input type="text-area" id="website-notes" class="text-area-input" name="website-notes" placeholder="Please type notes for moderators." required>
+            <input type="textarea" id="website-notes" class="text-area-input" name="website-notes" placeholder="Please type notes for moderators." required>
         </div>
         <div class="form-group">
             <label for="email">Email:</label>
