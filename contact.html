@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Gallery - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="assets/images/WFLogo.png" alt="Website Gallery Logo">
+        </a>
+        <nav>
+            <div class="nav-button">
+                <ul>
+                    <li><a href="about.html"><button>About</button></a></li>
+                    <li><a href="contact.html"><button>Submit</button></a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <h1>Submission Form</h1>
+        <form>
+       <div class="submission-form">
+
+        
+        <div class="form-group">
+            <label for="website-name">Website Name:</label>
+            <input type="text" id="website-name" placeholder="Input website name here." required>
+        </div>
+        <div class="form-group">
+            <label for="website-url">Website URL:</label>
+            <input type="text" id="website-url" placeholder="Input website URL." required>
+        </div>
+        <div class="form-group">
+            <label for="website-image">Image File (2:1):</label>
+            <input type="file" id="website-image" accept="image/*" placeholder="" class="file-input" required>
+        </div>
+        <div class="form-group">
+            <label for="website-image">Notes:</label>
+            <input type="text-area" id="website-image" class="text-area-input"  placeholder="Please type notes for moderators." required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email"  placeholder="ex.: john.doe@example.com" required>
+        </div>
+        <button type="submit" class="submit-button">Add</button>
+
+
+
+       </div>
+       </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 WebFramed</p>
+    </footer>
+</body>
+</html>
