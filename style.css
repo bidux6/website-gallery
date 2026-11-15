@@ -216,6 +216,9 @@ input {
   
     transition: background-color 0.3s ease;
 }
+
+
+
 @media (max-width: 540px) {
     .site-unit {
         width: 240px;
@@ -227,7 +230,7 @@ input {
         
     }
     h2 {
-        font-size: 0.5em;
+        font-size: 1em;
     }
     h1 {
         font-size: clamp(2.5rem, 11vw, 4rem);
@@ -235,6 +238,10 @@ input {
 
     p, li {
         font-size: clamp(1.1rem, 5vw, 1.5rem);
+    }
+    p {
+        max-width:80%;
+        margin: 20px auto;
     }
     .site-container {
        
