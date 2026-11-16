@@ -185,8 +185,9 @@ input {
 }
 .form-group {
     display:flex;
-    justify-content:center;
-    padding:20px;
+        justify-content:center;
+        flex-direction:column;
+        padding:20px;
 }
 
 .submission-form {
